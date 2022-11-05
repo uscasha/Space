@@ -1,0 +1,42 @@
+.errors_modal
+{
+    position: fixed;
+    width: 400px;
+    top: 5%;
+    left: 50%;
+    margin: 0 0 0 -200px;
+    text-align: center;
+    padding: 1rem;
+    border: 5px solid white;
+    background: black;
+    color: white;
+    z-index: 1000;
+}
+
+.errors_modal h1
+{
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.errors_modal h2
+{
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.errors_modal p
+{
+    font-size: 18px;
+}
+
+.errors_modal button
+{
+    border: solid 1px;
+    font-size: 18px;
+}
+
+.errors_modal_hidden {
+    display: none !important;
+    visibility: hidden !important;
+}
